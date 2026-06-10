@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .top {
+            display: grid;
+            grid-template-columns: 200px 75px;
+
+
+        }
+
+        .top1 {
+
+            background: rgb(95, 152, 152);
+        }
+
+        .top2 {
+
+            background: rgb(176, 115, 135);
+        }
+
+        .middle {
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+            margin-top: 30px;
+        }
+
+        .middle1 {
+            background: rgb(95, 152, 152);
+        }
+
+        .middle2 {
+            background: rgb(176, 115, 135);
+        }
+
+        .middle3 {
+            background: rgb(95, 152, 152);
+        }
+
+        .down {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+            margin-top: 40px;
+        }
+
+        .down1 {
+            background: rgb(176, 115, 135);
+        }
+
+        .down2 {
+            background: rgb(176, 115, 135);
+        }
+
+        .down3 {
+            background: rgb(176, 115, 135);
+
+        }
+
+        .down4 {
+            background: rgb(176, 115, 135);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <div class="top1">100px</div>
+        <div class="top2">75px</div>
+    </div>
+
+    <div class="middle">
+        <div class="middle1">col1</div>
+        <div class="middle2">col2</div>
+        <div class="middle3">col3</div>
+    </div>
+
+    <div class="down">
+        <div class="down1">col1</div>
+        <div class="down2">col2</div>
+        <div class="down3">col3</div>
+        <div class="down4">col4</div>
+        <div class="down1">col1</div>
+        <div class="down2">col2</div>
+        <div class="down3">col3</div>
+        <div class="down4">col4</div>
+    </div>
+</body>
+
+</html>
